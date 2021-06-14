@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Airthmetic Operations</title>
+    </head>
+    <script>
+    function addition() {
+  var x, y, z;
+  x = parseFloat(calc.value1.value);
+  y = parseFloat(calc.value2.value);
+  z = x + y;
+  //alert("The Addition result is" + z);
+  calc.value3.value = z;
+}
+function substraction() {
+  var x, y, z;
+  x = calc.value1.value;
+  y = calc.value2.value;
+  z = x - y;
+  //alert("The substraction result is" + z);
+  calc.value3.value = z;
+}
+function multiplication() {
+  var x, y, z;
+  x = calc.value1.value;
+  y = calc.value2.value;
+  z = x * y;
+  //alert("The multiplication result is" + z);
+  calc.value3.value = z;
+}
+function division() {
+  var x, y, z;
+  x = calc.value1.value;
+  y = calc.value2.value;
+  z = x / y;
+  // alert("The division result is" + z);
+  calc.value3.value = z;
+}
+
+</script>
+<body>
+<form name = "calc">
+<h1>Online Calculator</h1>
+Enter First Numeric value:<input type = "number" id = "value1"></br>
+Enter Second Numeric value:<input type = "number" id = "value2"></br>
+Select Operations </br>
+<input type = "button" value = "addition" onClick = addition()></br>
+<input type = "button" value = "substraction" onClick = substraction()></br>
+<input type = "button" value = "multiplication" onClick = multiplication()></br>
+<input type = "button" value = "division" onClick = division()></br>
+Result of the Arithmetic operation is: <output type = "number" id ="value3"></br> </form>
+</body>
+
+</html>
