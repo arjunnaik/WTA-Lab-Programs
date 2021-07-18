@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type ="text/css" href="style.css"?>
+<student>
+    <student>
+        <sname>ABCD</sname>
+        <usn>1PE15CS001</usn>
+        <college>PEST-BSC</college>
+        <branch>CSE</branch>
+        <yoj>2015</yoj>
+        <email>adcd@xyz.com</email>
+    </student>
+    <student>
+        <sname>QUERTY</sname>
+        <usn>1PE15CS002</usn>
+        <college>PEST-BSC</college>
+        <branch>CSE</branch>
+        <yoj>2015</yoj>
+        <email>querty@xyz.com</email>
+    </student>
+    <student>
+        <sname>PQRS</sname>
+        <usn>1PE15CS003</usn>
+        <college>PEST-BSC</college>
+        <branch>CSE</branch>
+        <yoj>2015</yoj>
+        <email>pqrs@xyz.com</email>
+    </student>
+</student>

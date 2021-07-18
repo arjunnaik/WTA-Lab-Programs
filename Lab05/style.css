@@ -1,0 +1,77 @@
+student {
+  font-weight: bolder;
+  background_color: bisque;
+  font_family: "cambria";
+  border: 1px solid red;
+  background-color: rgb(214, 233, 128);
+  margin: 15px;
+}
+student {
+  display: block;
+  margin_bottom: 30pt;
+  margin_left: 0;
+}
+sname {
+  display: block;
+  font_size: 15pt;
+  text_transform: uppercase;
+  color: blue;
+}
+usn:before {
+  content: "usn:";
+  font_size: 14pt;
+  font_weight: bold;
+}
+usn {
+  display: block;
+  font_size: 14pt;
+  margin_left: 20pt;
+  text_transform: uppercase;
+  color: blueviolet;
+}
+college:before {
+  content: "affiliated college:";
+  font_size: 14pt;
+  font_weight: bold;
+}
+college {
+  display: block;
+  font_size: 14pt;
+  margin_left: 20pt;
+  color: blueviolet;
+}
+college:before {
+  content: "branch:";
+  font_size: 14pt;
+  font_weight: bold;
+}
+branch {
+  display: block;
+  font_size: 14pt;
+  margin_left: 20pt;
+  color: blueviolet;
+}
+yoj:before {
+  content: "year of joining:";
+  font_size: 14pt;
+  margin_left: 20pt;
+  color: blueviolet;
+}
+yoj {
+  display: block;
+  font_size: 14pt;
+
+  margin_left: 20pt;
+  color: blueviolet;
+}
+email:before {
+  content: "emailid:";
+  font_size: 14pt;
+  font_weight: bold;
+}
+email {
+  display: block;
+  font_size: 14pt;
+  margin_left: 20pt;
+  color: blueviolet;
+}
